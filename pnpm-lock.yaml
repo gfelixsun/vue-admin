@@ -271,7 +271,7 @@ catalogs:
       specifier: ^10.1.0
       version: 10.3.0
     execa:
-      specifier: ^9.5.2
+      specifier: ^9.6.0
       version: 9.6.0
     find-up:
       specifier: ^7.0.0
