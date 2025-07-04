@@ -16,8 +16,8 @@ catalogs:
       specifier: ^3.0.4
       version: 3.0.4
     '@clack/prompts':
-      specifier: ^0.10.1
-      version: 0.10.1
+      specifier: ^0.11.0
+      version: 0.11.0
     '@commitlint/cli':
       specifier: ^19.8.0
       version: 19.8.1
@@ -40,8 +40,8 @@ catalogs:
       specifier: ^5.0.0
       version: 5.0.0
     '@intlify/core-base':
-      specifier: ^11.1.3
-      version: 11.1.7
+      specifier: ^11.1.9
+      version: 11.1.9
     '@intlify/unplugin-vue-i18n':
       specifier: ^6.0.8
       version: 6.0.8
@@ -244,8 +244,8 @@ catalogs:
       specifier: ^2.20.0
       version: 2.20.1
     eslint-plugin-n:
-      specifier: ^17.17.0
-      version: 17.20.0
+      specifier: ^17.21.0
+      version: 17.21.0
     eslint-plugin-no-only-tests:
       specifier: ^3.3.0
       version: 3.3.0
@@ -268,8 +268,8 @@ catalogs:
       specifier: ^0.5.4
       version: 0.5.4
     eslint-plugin-vue:
-      specifier: ^10.1.0
-      version: 10.2.0
+      specifier: ^10.3.0
+      version: 10.3.0
     execa:
       specifier: ^9.5.2
       version: 9.6.0
@@ -304,8 +304,8 @@ catalogs:
       specifier: ^9.0.2
       version: 9.0.2
     lefthook:
-      specifier: ^1.11.12
-      version: 1.11.14
+      specifier: ^1.11.16
+      version: 1.11.16
     lodash.clonedeep:
       specifier: ^4.5.0
       version: 4.5.0
@@ -319,8 +319,8 @@ catalogs:
       specifier: ^4.3.2
       version: 4.3.2
     lucide-vue-next:
-      specifier: ^0.507.0
-      version: 0.507.0
+      specifier: ^0.525.0
+      version: 0.525.0
     medium-zoom:
       specifier: ^1.1.0
       version: 1.1.0
@@ -403,8 +403,8 @@ catalogs:
       specifier: ^1.15.6
       version: 1.15.6
     stylelint:
-      specifier: ^16.19.1
-      version: 16.21.0
+      specifier: ^16.21.1
+      version: 16.21.1
     stylelint-config-recess-order:
       specifier: ^6.0.0
       version: 6.1.0
@@ -493,8 +493,8 @@ catalogs:
       specifier: ^10.1.3
       version: 10.2.0
     vue-i18n:
-      specifier: ^11.1.3
-      version: 11.1.7
+      specifier: ^11.1.9
+      version: 11.1.9
     vue-json-viewer:
       specifier: ^3.0.4
       version: 3.0.4
@@ -508,23 +508,23 @@ catalogs:
       specifier: 2.2.10
       version: 2.2.10
     vxe-pc-ui:
-      specifier: ^4.5.35
-      version: 4.6.42
+      specifier: ^4.6.46
+      version: 4.6.46
     vxe-table:
-      specifier: ^4.13.16
-      version: 4.13.51
+      specifier: ^4.13.52
+      version: 4.13.52
     watermark-js-plus:
       specifier: ^1.6.0
       version: 1.6.2
     zod:
-      specifier: ^3.24.3
-      version: 3.25.67
+      specifier: ^3.25.71
+      version: 3.25.71
     zod-defaults:
       specifier: ^0.1.3
       version: 0.1.3
 
 overrides:
-  '@ast-grep/napi': ^0.37.0
+  '@ast-grep/napi': ^0.38.6
   '@ctrl/tinycolor': ^4.1.0
   clsx: ^2.1.1
   esbuild: 0.25.3
@@ -600,7 +600,7 @@ importers:
         version: 4.1.0
       lefthook:
         specifier: 'catalog:'
-        version: 1.11.14
+        version: 1.11.16
       playwright:
         specifier: 'catalog:'
         version: 1.53.2
@@ -873,7 +873,7 @@ importers:
         version: 4.2.6(vue@3.5.17(typescript@5.8.3))
       lucide-vue-next:
         specifier: 'catalog:'
-        version: 0.507.0(vue@3.5.17(typescript@5.8.3))
+        version: 0.525.0(vue@3.5.17(typescript@5.8.3))
       medium-zoom:
         specifier: 'catalog:'
         version: 1.1.0
@@ -959,7 +959,7 @@ importers:
         version: 2.20.1(eslint@9.30.1(jiti@2.4.2))
       eslint-plugin-n:
         specifier: 'catalog:'
-        version: 17.20.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
+        version: 17.21.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       eslint-plugin-no-only-tests:
         specifier: 'catalog:'
         version: 3.3.0
@@ -983,7 +983,7 @@ importers:
         version: 0.5.4(@typescript-eslint/eslint-plugin@8.35.1(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4(@types/node@24.0.10)(happy-dom@17.6.3)(jiti@2.4.2)(less@4.3.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))
       eslint-plugin-vue:
         specifier: 'catalog:'
-        version: 10.2.0(eslint@9.30.1(jiti@2.4.2))(vue-eslint-parser@10.2.0(eslint@9.30.1(jiti@2.4.2)))
+        version: 10.3.0(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.4.2))(vue-eslint-parser@10.2.0(eslint@9.30.1(jiti@2.4.2)))
       globals:
         specifier: 'catalog:'
         version: 16.3.0
@@ -1007,13 +1007,13 @@ importers:
     dependencies:
       '@stylistic/stylelint-plugin':
         specifier: 'catalog:'
-        version: 3.1.3(stylelint@16.21.0(typescript@5.8.3))
+        version: 3.1.3(stylelint@16.21.1(typescript@5.8.3))
       stylelint-config-recess-order:
         specifier: 'catalog:'
-        version: 6.1.0(stylelint@16.21.0(typescript@5.8.3))
+        version: 6.1.0(stylelint@16.21.1(typescript@5.8.3))
       stylelint-scss:
         specifier: 'catalog:'
-        version: 6.12.1(stylelint@16.21.0(typescript@5.8.3))
+        version: 6.12.1(stylelint@16.21.1(typescript@5.8.3))
     devDependencies:
       postcss:
         specifier: 'catalog:'
@@ -1029,25 +1029,25 @@ importers:
         version: 3.6.2
       stylelint:
         specifier: 'catalog:'
-        version: 16.21.0(typescript@5.8.3)
+        version: 16.21.1(typescript@5.8.3)
       stylelint-config-recommended:
         specifier: 'catalog:'
-        version: 16.0.0(stylelint@16.21.0(typescript@5.8.3))
+        version: 16.0.0(stylelint@16.21.1(typescript@5.8.3))
       stylelint-config-recommended-scss:
         specifier: 'catalog:'
-        version: 14.1.0(postcss@8.5.6)(stylelint@16.21.0(typescript@5.8.3))
+        version: 14.1.0(postcss@8.5.6)(stylelint@16.21.1(typescript@5.8.3))
       stylelint-config-recommended-vue:
         specifier: 'catalog:'
-        version: 1.6.1(postcss-html@1.8.0)(stylelint@16.21.0(typescript@5.8.3))
+        version: 1.6.1(postcss-html@1.8.0)(stylelint@16.21.1(typescript@5.8.3))
       stylelint-config-standard:
         specifier: 'catalog:'
-        version: 38.0.0(stylelint@16.21.0(typescript@5.8.3))
+        version: 38.0.0(stylelint@16.21.1(typescript@5.8.3))
       stylelint-order:
         specifier: 'catalog:'
-        version: 7.0.0(stylelint@16.21.0(typescript@5.8.3))
+        version: 7.0.0(stylelint@16.21.1(typescript@5.8.3))
       stylelint-prettier:
         specifier: 'catalog:'
-        version: 5.0.3(prettier@3.6.2)(stylelint@16.21.0(typescript@5.8.3))
+        version: 5.0.3(prettier@3.6.2)(stylelint@16.21.1(typescript@5.8.3))
 
   internal/node-utils:
     dependencies:
@@ -1144,7 +1144,7 @@ importers:
     dependencies:
       '@intlify/unplugin-vue-i18n':
         specifier: 'catalog:'
-        version: 6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.1(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+        version: 6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.1(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
       '@jspm/generator':
         specifier: 'catalog:'
         version: 2.6.2
@@ -1231,7 +1231,7 @@ importers:
         version: 5.0.0(vue@3.5.17(typescript@5.8.3))
       lucide-vue-next:
         specifier: 'catalog:'
-        version: 0.507.0(vue@3.5.17(typescript@5.8.3))
+        version: 0.525.0(vue@3.5.17(typescript@5.8.3))
       vue:
         specifier: ^3.5.13
         version: 3.5.17(typescript@5.8.3)
@@ -1359,7 +1359,7 @@ importers:
         version: link:../../base/typings
       '@vee-validate/zod':
         specifier: 'catalog:'
-        version: 4.15.1(vue@3.5.17(typescript@5.8.3))(zod@3.25.67)
+        version: 4.15.1(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)
       '@vueuse/core':
         specifier: 'catalog:'
         version: 13.5.0(vue@3.5.17(typescript@5.8.3))
@@ -1371,10 +1371,10 @@ importers:
         version: 3.5.17(typescript@5.8.3)
       zod:
         specifier: 'catalog:'
-        version: 3.25.67
+        version: 3.25.71
       zod-defaults:
         specifier: 'catalog:'
-        version: 0.1.3(zod@3.25.67)
+        version: 0.1.3(zod@3.25.71)
 
   packages/@core/ui-kit/layout-ui:
     dependencies:
@@ -1470,7 +1470,7 @@ importers:
         version: 0.7.1
       lucide-vue-next:
         specifier: 'catalog:'
-        version: 0.507.0(vue@3.5.17(typescript@5.8.3))
+        version: 0.525.0(vue@3.5.17(typescript@5.8.3))
       radix-vue:
         specifier: 'catalog:'
         version: 1.9.17(vue@3.5.17(typescript@5.8.3))
@@ -1723,10 +1723,10 @@ importers:
         version: 3.5.17(typescript@5.8.3)
       vxe-pc-ui:
         specifier: 'catalog:'
-        version: 4.6.42(vue@3.5.17(typescript@5.8.3))
+        version: 4.6.46(vue@3.5.17(typescript@5.8.3))
       vxe-table:
         specifier: 'catalog:'
-        version: 4.13.51(vue@3.5.17(typescript@5.8.3))
+        version: 4.13.52(vue@3.5.17(typescript@5.8.3))
 
   packages/effects/request:
     dependencies:
@@ -1760,7 +1760,7 @@ importers:
     dependencies:
       '@intlify/core-base':
         specifier: 'catalog:'
-        version: 11.1.7
+        version: 11.1.9
       '@vben-core/composables':
         specifier: workspace:*
         version: link:../@core/composables
@@ -1769,7 +1769,7 @@ importers:
         version: 3.5.17(typescript@5.8.3)
       vue-i18n:
         specifier: 'catalog:'
-        version: 11.1.7(vue@3.5.17(typescript@5.8.3))
+        version: 11.1.9(vue@3.5.17(typescript@5.8.3))
 
   packages/preferences:
     dependencies:
@@ -1917,7 +1917,7 @@ importers:
     dependencies:
       '@clack/prompts':
         specifier: 'catalog:'
-        version: 0.10.1
+        version: 0.11.0
       '@vben/node-utils':
         specifier: workspace:*
         version: link:../../internal/node-utils
@@ -2051,66 +2051,66 @@ packages:
     peerDependencies:
       ajv: '>=8'
 
-  '@ast-grep/napi-darwin-arm64@0.37.0':
-    resolution: {integrity: sha512-QAiIiaAbLvMEg/yBbyKn+p1gX2/FuaC0SMf7D7capm/oG4xGMzdeaQIcSosF4TCxxV+hIH4Bz9e4/u7w6Bnk3Q==}
+  '@ast-grep/napi-darwin-arm64@0.38.6':
+    resolution: {integrity: sha512-HMGgGc5CJu7yc52ndp98d5Fa6jr5C5tE9Z5naOKb76dRAq+eBAsTXhsq9KLagHLC0pNd6ALYk243yySCJN1iQQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@ast-grep/napi-darwin-x64@0.37.0':
-    resolution: {integrity: sha512-zvcvdgekd4ySV3zUbUp8HF5nk5zqwiMXTuVzTUdl/w08O7JjM6XPOIVT+d2o/MqwM9rsXdzdergY5oY2RdhSPA==}
+  '@ast-grep/napi-darwin-x64@0.38.6':
+    resolution: {integrity: sha512-GSSOT/Au67NHX6zG2QwiceEFs37Fs232LnXMffI+UQKS8ORFD7/n4tK1ObJW54Mtlx2J/JvHUrdIJCNFFwoY/Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@ast-grep/napi-linux-arm64-gnu@0.37.0':
-    resolution: {integrity: sha512-L7Sj0lXy8X+BqSMgr1LB8cCoWk0rericdeu+dC8/c8zpsav5Oo2IQKY1PmiZ7H8IHoFBbURLf8iklY9wsD+cyA==}
+  '@ast-grep/napi-linux-arm64-gnu@0.38.6':
+    resolution: {integrity: sha512-qFaAzc3vbd/j6dbBtfYzgbDNpRlUcGIt5MVW5ri04Fm90vaFjFQ//8WYdMzPu8pJWgSEyDVDPRZYTeeEVz6veQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@ast-grep/napi-linux-arm64-musl@0.37.0':
-    resolution: {integrity: sha512-LF9sAvYy6es/OdyJDO3RwkX3I82Vkfsng1sqUBcoWC1jVb1wX5YVzHtpQox9JrEhGl+bNp7FYxB4Qba9OdA5GA==}
+  '@ast-grep/napi-linux-arm64-musl@0.38.6':
+    resolution: {integrity: sha512-+r/aKRF34hcHfveqX101WIIYAamOvf3Gh8L90lD26Wrp7OSwpQRA22+pAJONJbxGKurrnsk0pKWaDavRyEQVKg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@ast-grep/napi-linux-x64-gnu@0.37.0':
-    resolution: {integrity: sha512-TViz5/klqre6aSmJzswEIjApnGjJzstG/SE8VDWsrftMBMYt2PTu3MeluZVwzSqDao8doT/P+6U11dU05UOgxw==}
+  '@ast-grep/napi-linux-x64-gnu@0.38.6':
+    resolution: {integrity: sha512-C+kZN2mhEN3oZBsbjpCSyAo0fsMeGdYBE00RiTrc7nFr1hmdoAJzPzSCN5vD+DPWzvLrpb1G7pKl4XRzo1Rw2g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@ast-grep/napi-linux-x64-musl@0.37.0':
-    resolution: {integrity: sha512-/BcCH33S9E3ovOAEoxYngUNXgb+JLg991sdyiNP2bSoYd30a9RHrG7CYwW6fMgua3ijQ474eV6cq9yZO1bCpXg==}
+  '@ast-grep/napi-linux-x64-musl@0.38.6':
+    resolution: {integrity: sha512-putEXdOC0LIwVNSGV/pNQA+0fGMEB+Zn5tG6lKb7yycgRDNic10gjz2Zerb2QQk8g+PP2TubzJ3FFfPkgpAvfw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@ast-grep/napi-win32-arm64-msvc@0.37.0':
-    resolution: {integrity: sha512-TjQA4cFoIEW2bgjLkaL9yqT4XWuuLa5MCNd0VCDhGRDMNQ9+rhwi9eLOWRaap3xzT7g+nlbcEHL3AkVCD2+b3A==}
+  '@ast-grep/napi-win32-arm64-msvc@0.38.6':
+    resolution: {integrity: sha512-XVe+xWjIyOVwWWK1popPh7502blGVQmJz5WV0lANVORazSzVQQAIRXBjSM6UsXSZi/pNDIL+Rw69rQSu2pDPPA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@ast-grep/napi-win32-ia32-msvc@0.37.0':
-    resolution: {integrity: sha512-uNmVka8fJCdYsyOlF9aZqQMLTatEYBynjChVTzUfFMDfmZ0bihs/YTqJVbkSm8TZM7CUX82apvn50z/dX5iWRA==}
+  '@ast-grep/napi-win32-ia32-msvc@0.38.6':
+    resolution: {integrity: sha512-m6bUCIRs7bYkmnbzkzYEycAXXQ2xynVCbsOh7q6/grWnQP6nweTGpwn/Rjep2P+JiuUlG5e2lTfBr2DAj1JG2w==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@ast-grep/napi-win32-x64-msvc@0.37.0':
-    resolution: {integrity: sha512-vCiFOT3hSCQuHHfZ933GAwnPzmL0G04JxQEsBRfqONywyT8bSdDc/ECpAfr3S9VcS4JZ9/F6tkePKW/Om2Dq2g==}
+  '@ast-grep/napi-win32-x64-msvc@0.38.6':
+    resolution: {integrity: sha512-Q7L+gVafW3z8NK3ASbY2t1C2lsO3fDOcQU4Pfm1IfeToJJtdntbw9sg1ULEZzwKq+AviuS4L35XcfxKDSWNu+g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
 
-  '@ast-grep/napi@0.37.0':
-    resolution: {integrity: sha512-Hb4o6h1Pf6yRUAX07DR4JVY7dmQw+RVQMW5/m55GoiAT/VRoKCWBtIUPPOnqDVhbx1Cjfil9b6EDrgJsUAujEQ==}
+  '@ast-grep/napi@0.38.6':
+    resolution: {integrity: sha512-DGQfGPv0mQriq0Ale/A8jh7YUEjyaP7aY9r8HHSRsig6MIHWi7pnm2xqTv/+GwvfKV6wUi41Zs2asO4feuxOWA==}
     engines: {node: '>= 10'}
 
   '@babel/code-frame@7.27.1':
@@ -2714,11 +2714,11 @@ packages:
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==}
 
-  '@clack/core@0.4.2':
-    resolution: {integrity: sha512-NYQfcEy8MWIxrT5Fj8nIVchfRFA26yYKJcvBS7WlUIlw2OmQOY9DhGGXMovyI5J5PpxrCPGkgUi207EBrjpBvg==}
+  '@clack/core@0.5.0':
+    resolution: {integrity: sha512-p3y0FIOwaYRUPRcMO7+dlmLh8PSRcrjuTndsiA0WAFbWES0mLZlrjVoBRZ9DzkPFJZG6KGkJmoEAY0ZcVWTkow==}
 
-  '@clack/prompts@0.10.1':
-    resolution: {integrity: sha512-Q0T02vx8ZM9XSv9/Yde0jTmmBQufZhPJfYAg2XrrrxWWaZgq1rr8nU8Hv710BQ1dhoP8rtY7YUdpGej2Qza/cw==}
+  '@clack/prompts@0.11.0':
+    resolution: {integrity: sha512-pMN5FcrEw9hUkZA4f+zLlzivQSeQf5dRGJjSUbvVYDLvpKCdQx5OaknvKzgbtXOizhP+SJJJjqEbOe55uKKfAw==}
 
   '@cloudflare/kv-asset-handler@0.4.0':
     resolution: {integrity: sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA==}
@@ -3644,16 +3644,24 @@ packages:
       vue-i18n:
         optional: true
 
-  '@intlify/core-base@11.1.7':
-    resolution: {integrity: sha512-gYiGnQeJVp3kNBeXQ73m1uFOak0ry4av8pn+IkEWigyyPWEMGzB+xFeQdmGMFn49V+oox6294oGVff8bYOhtOw==}
+  '@intlify/core-base@11.1.9':
+    resolution: {integrity: sha512-Lrdi4wp3XnGhWmB/mMD/XtfGUw1Jt+PGpZI/M63X1ZqhTDjNHRVCs/i8vv8U1cwaj1A9fb0bkCQHLSL0SK+pIQ==}
     engines: {node: '>= 16'}
 
   '@intlify/message-compiler@11.1.7':
     resolution: {integrity: sha512-0ezkep1AT30NyuKj8QbRlmvMORCCRlOIIu9v8RNU8SwDjjTiFCZzczCORMns2mCH4HZ1nXgrfkKzYUbfjNRmng==}
     engines: {node: '>= 16'}
 
+  '@intlify/message-compiler@11.1.9':
+    resolution: {integrity: sha512-84SNs3Ikjg0rD1bOuchzb3iK1vR2/8nxrkyccIl5DjFTeMzE/Fxv6X+A7RN5ZXjEWelc1p5D4kHA6HEOhlKL5Q==}
+    engines: {node: '>= 16'}
+
   '@intlify/shared@11.1.7':
     resolution: {integrity: sha512-4yZeMt2Aa/7n5Ehy4KalUlvt3iRLcg1tq9IBVfOgkyWFArN4oygn6WxgGIFibP3svpaH8DarbNaottq+p0gUZQ==}
+    engines: {node: '>= 16'}
+
+  '@intlify/shared@11.1.9':
+    resolution: {integrity: sha512-H/83xgU1l8ox+qG305p6ucmoy93qyjIPnvxGWRA7YdOoHe1tIiW9IlEu4lTdsOR7cfP1ecrwyflQSqXdXBacXA==}
     engines: {node: '>= 16'}
 
   '@intlify/unplugin-vue-i18n@6.0.8':
@@ -6470,8 +6478,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-n@17.20.0:
-    resolution: {integrity: sha512-IRSoatgB/NQJZG5EeTbv/iAx1byOGdbbyhQrNvWdCfTnmPxUT0ao9/eGOeG7ljD8wJBsxwE8f6tES5Db0FRKEw==}
+  eslint-plugin-n@17.21.0:
+    resolution: {integrity: sha512-1+iZ8We4ZlwVMtb/DcHG3y5/bZOdazIpa/4TySo22MLKdwrLcfrX0hbadnCvykSQCCmkAnWmIP8jZVb2AAq29A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -6540,12 +6548,16 @@ packages:
       vitest:
         optional: true
 
-  eslint-plugin-vue@10.2.0:
-    resolution: {integrity: sha512-tl9s+KN3z0hN2b8fV2xSs5ytGl7Esk1oSCxULLwFcdaElhZ8btYYZFrWxvh4En+czrSDtuLCeCOGa8HhEZuBdQ==}
+  eslint-plugin-vue@10.3.0:
+    resolution: {integrity: sha512-A0u9snqjCfYaPnqqOaH6MBLVWDUIN4trXn8J3x67uDcXvR7X6Ut8p16N+nYhMCQ9Y7edg2BIRGzfyZsY0IdqoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
+      '@typescript-eslint/parser': ^7.0.0 || ^8.0.0
       eslint: ^8.57.0 || ^9.0.0
       vue-eslint-parser: ^10.0.0
+    peerDependenciesMeta:
+      '@typescript-eslint/parser':
+        optional: true
 
   eslint-scope@8.4.0:
     resolution: {integrity: sha512-sNXOfKCn74rt8RICKMvJS7XKV/Xk9kA7DyJr8mJik3S7Cwgy3qlkkmyS2uQB3jiJg6VNdZd/pDBJu0nvG2NlTg==}
@@ -7720,23 +7732,58 @@ packages:
     resolution: {integrity: sha512-b94GiNHQNy6JNTrt5w6zNyffMrNkXZb3KTkCZJb2V1xaEGCk093vkZ2jk3tpaeP33/OiXC+WvK9AxUebnf5nbw==}
     engines: {node: '>= 0.6.3'}
 
-  lefthook-darwin-arm64@1.11.14:
-    resolution: {integrity: sha512-YPbUK6kGytY5W6aNUrzK7Vod3ynLVvj5JQiBh0DjlxCHMgIQPpFkDfwQzGw1E8CySyC95HXO83En5Ule8umS7g==}
+  lefthook-darwin-arm64@1.11.16:
+    resolution: {integrity: sha512-ThsVyHPexHax7aZYpFbsswk5HPR2ap3zsJ1yE189Y97U+tLEHS+Mq98MqC1U1zFm0Ts42gpGDBx6chIRjx7Uig==}
     cpu: [arm64]
     os: [darwin]
 
-  lefthook-darwin-x64@1.11.14:
-    resolution: {integrity: sha512-l9RhSBp1SHqLCjSGWoeeVWqKcTBOMW8v2CCYrUt5eb6sik7AjT6+Neqf3sClsXH7SjELjj43yjmg6loqPtfDgg==}
+  lefthook-darwin-x64@1.11.16:
+    resolution: {integrity: sha512-P3QtUJ/ICX3l+ZJqqKGyovT6Hi2N60Vt8znGglJ+OeCpVMc6H6N0ID37+jHlnyjO9AfL4EkAj70vwYe8Fzfjsw==}
     cpu: [x64]
     os: [darwin]
 
-  lefthook-windows-x64@1.11.14:
-    resolution: {integrity: sha512-kBeOPR0Aj5hQGxoBBntgz5/e/xaH5Vnzlq9lJjHW8sf23qu/JVUGg6ceCoicyVWJi+ZOBliTa8KzwCu+mgyJjw==}
+  lefthook-freebsd-arm64@1.11.16:
+    resolution: {integrity: sha512-X0EyVoCg4+nczJDZ0rc0gpZHOrLr4Nk7knoYFKrBnvutuMCs9ixU+tA4sV8pu4KT13gigbXkxjKlIN7QUqFCxg==}
+    cpu: [arm64]
+    os: [freebsd]
+
+  lefthook-freebsd-x64@1.11.16:
+    resolution: {integrity: sha512-m2nfcpz2i4AdQ9fZqcoTCxAFotqXHYzUThgqcRyMaPHjlpy+ZmVnopppt9MS4GfDDq+dqjka28ZZObE7T1Nb5g==}
+    cpu: [x64]
+    os: [freebsd]
+
+  lefthook-linux-arm64@1.11.16:
+    resolution: {integrity: sha512-mXwCXs5J1qyq6QmBXFy2/YYG0sCzz1C0sfnzLdgXoAAmhEFfA4wy/DX/jNbvMPvRLfKHiXtf3eaqjLEYg9CGjQ==}
+    cpu: [arm64]
+    os: [linux]
+
+  lefthook-linux-x64@1.11.16:
+    resolution: {integrity: sha512-MW1ClFIk3uTfpOCm+FGW8NZbXWA6Xdf/eUw6//mEVs3Q4EsZ4GYZn0AFRMrsaXxbSZnvAPhtNoEVqRfYWjWKBQ==}
+    cpu: [x64]
+    os: [linux]
+
+  lefthook-openbsd-arm64@1.11.16:
+    resolution: {integrity: sha512-6Aqjyc2TkkEpogsUvzLSdMAy/fN6YHlq3XA47N7VNc0Ke0XP/XIImb0zEPsYDjrdNqZbEKoXn+IYkValtS5DXg==}
+    cpu: [arm64]
+    os: [openbsd]
+
+  lefthook-openbsd-x64@1.11.16:
+    resolution: {integrity: sha512-ierlKlnrUe1ML6F3JFgFllgy71qY1S5I2wOclI3yh2EGykAJIUmdkgz/f0KT1slV2aXeSP+QgBTu496WzZSjIg==}
+    cpu: [x64]
+    os: [openbsd]
+
+  lefthook-windows-arm64@1.11.16:
+    resolution: {integrity: sha512-AAjDKWOExTS1XlSvNNIa3YIJbf90SZ5X0NSA7EgHobegadLcLrkl3aX+2zcw+yvpm1AOF0WUZdYxkAHL5MNQOg==}
+    cpu: [arm64]
+    os: [win32]
+
+  lefthook-windows-x64@1.11.16:
+    resolution: {integrity: sha512-qOEAinMMV5rlf4C0VPSIlPaj5nh2CD4lzAv7+nAUydDiDQcVkkPbiwCaRkSVX509k6SctDCYQhtBnG/bwdREFQ==}
     cpu: [x64]
     os: [win32]
 
-  lefthook@1.11.14:
-    resolution: {integrity: sha512-Dv91Lnu/0jLT5pCZE0IkEfrpTXUhyX9WG4upEMPkKPCl5aBgJdoqVw/hbh8drcVrC6y7k1PqsRmWSERmO57weQ==}
+  lefthook@1.11.16:
+    resolution: {integrity: sha512-NbFZaAJUEiwBv6Npg7TZOCo9Bxh8VUSuBZ55CTulH9roQjknSXQWgGYz9FaHvqVeMBf7Xog2Wk84Ce7gWrWlYw==}
     hasBin: true
 
   less@4.3.0:
@@ -7915,8 +7962,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  lucide-vue-next@0.507.0:
-    resolution: {integrity: sha512-n0AZRmez4xq5vu5ZOfnrhC5wKBpu5tpwDHA6Ue2+sKyJv3USAPxqIerXLbdYbkHRW1tVZ3U9GE1MACsu6X/Z7Q==}
+  lucide-vue-next@0.525.0:
+    resolution: {integrity: sha512-Xf8+x8B2DrnGDV/rxylS+KBp2FIe6ljwDn2JsGTZZvXIfhmm/q+nv8RuGO1OyoMjOVkkz7CqtUqJfwtFPRbB2w==}
     peerDependencies:
       vue: ^3.5.13
 
@@ -10032,8 +10079,8 @@ packages:
     peerDependencies:
       stylelint: ^16.0.2
 
-  stylelint@16.21.0:
-    resolution: {integrity: sha512-ki3PpJGG7xhm3WtINoWGnlvqAmbqSexoRMbEMJzlwewSIOqPRKPlq452c22xAdEJISVi80r+I7KL9GPUiwFgbg==}
+  stylelint@16.21.1:
+    resolution: {integrity: sha512-WCXdXnYK2tpCbebgMF0Bme3YZH/Rh/UXerj75twYo4uLULlcrLwFVdZTvTEF8idFnAcW21YUDJFyKOfaf6xJRw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -10801,8 +10848,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  vue-i18n@11.1.7:
-    resolution: {integrity: sha512-CDrU7Cmyh1AxJjerQmipV9nVa//exVBdhTcWGlbfcDCN8bKp/uAe7Le6IoN4//5emIikbsSKe9Uofmf/xXkhOA==}
+  vue-i18n@11.1.9:
+    resolution: {integrity: sha512-N9ZTsXdRmX38AwS9F6Rh93RtPkvZTkSy/zNv63FTIwZCUbLwwrpqlKz9YQuzFLdlvRdZTnWAUE5jMxr8exdl7g==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.5.13
@@ -10847,11 +10894,11 @@ packages:
     peerDependencies:
       vue: ^3.5.13
 
-  vxe-pc-ui@4.6.42:
-    resolution: {integrity: sha512-grBaVbagoc5rbTq2jj1P/cWYP+sBo+VSXFRpNGYOe9Ka4EG9JP+LIa7h0lKfojDE5fGlPUYTkkYNe0fsQVDQ0g==}
+  vxe-pc-ui@4.6.46:
+    resolution: {integrity: sha512-+948zTW9i8LwQZH7hGzi/gG42mpw3ro7pXP/rVmJIfi9KGFOFHiUihjWj96DLBJuevbXr9fi7+n+IzRiJgbgDA==}
 
-  vxe-table@4.13.51:
-    resolution: {integrity: sha512-g7y/67EC43KfiSGmZU6xh9kzGIsNQlFzvX1Yl/qz8U3dcQ8oOcnnvymhkHY54teaqyTr6m6RyWkcMKe3RMP64g==}
+  vxe-table@4.13.52:
+    resolution: {integrity: sha512-cP+H2zJNrXiu3PooOWJSh7XisT8Q0/KpjByMKbWlwt4txJrZ0xFdgxr+u+xIcSiO3pbdPAUjg7fJnZgOgFrKYw==}
 
   warning@4.0.3:
     resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
@@ -11134,6 +11181,9 @@ packages:
   zod@3.25.67:
     resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
 
+  zod@3.25.71:
+    resolution: {integrity: sha512-BsBc/NPk7h8WsUWYWYL+BajcJPY8YhjelaWu2NMLuzgraKAz4Lb4/6K11g9jpuDetjMiqhZ6YaexFLOC0Ogi3Q==}
+
   zrender@5.6.1:
     resolution: {integrity: sha512-OFXkDJKcrlx5su2XbzJvj/34Q3m6PvyCZkVPHGYpcCJ52ek4U/ymZyfuV1nKE23AyBJ51E/6Yr0mhZ7xGTO4ag==}
 
@@ -11287,44 +11337,44 @@ snapshots:
       jsonpointer: 5.0.1
       leven: 3.1.0
 
-  '@ast-grep/napi-darwin-arm64@0.37.0':
+  '@ast-grep/napi-darwin-arm64@0.38.6':
     optional: true
 
-  '@ast-grep/napi-darwin-x64@0.37.0':
+  '@ast-grep/napi-darwin-x64@0.38.6':
     optional: true
 
-  '@ast-grep/napi-linux-arm64-gnu@0.37.0':
+  '@ast-grep/napi-linux-arm64-gnu@0.38.6':
     optional: true
 
-  '@ast-grep/napi-linux-arm64-musl@0.37.0':
+  '@ast-grep/napi-linux-arm64-musl@0.38.6':
     optional: true
 
-  '@ast-grep/napi-linux-x64-gnu@0.37.0':
+  '@ast-grep/napi-linux-x64-gnu@0.38.6':
     optional: true
 
-  '@ast-grep/napi-linux-x64-musl@0.37.0':
+  '@ast-grep/napi-linux-x64-musl@0.38.6':
     optional: true
 
-  '@ast-grep/napi-win32-arm64-msvc@0.37.0':
+  '@ast-grep/napi-win32-arm64-msvc@0.38.6':
     optional: true
 
-  '@ast-grep/napi-win32-ia32-msvc@0.37.0':
+  '@ast-grep/napi-win32-ia32-msvc@0.38.6':
     optional: true
 
-  '@ast-grep/napi-win32-x64-msvc@0.37.0':
+  '@ast-grep/napi-win32-x64-msvc@0.38.6':
     optional: true
 
-  '@ast-grep/napi@0.37.0':
+  '@ast-grep/napi@0.38.6':
     optionalDependencies:
-      '@ast-grep/napi-darwin-arm64': 0.37.0
-      '@ast-grep/napi-darwin-x64': 0.37.0
-      '@ast-grep/napi-linux-arm64-gnu': 0.37.0
-      '@ast-grep/napi-linux-arm64-musl': 0.37.0
-      '@ast-grep/napi-linux-x64-gnu': 0.37.0
-      '@ast-grep/napi-linux-x64-musl': 0.37.0
-      '@ast-grep/napi-win32-arm64-msvc': 0.37.0
-      '@ast-grep/napi-win32-ia32-msvc': 0.37.0
-      '@ast-grep/napi-win32-x64-msvc': 0.37.0
+      '@ast-grep/napi-darwin-arm64': 0.38.6
+      '@ast-grep/napi-darwin-x64': 0.38.6
+      '@ast-grep/napi-linux-arm64-gnu': 0.38.6
+      '@ast-grep/napi-linux-arm64-musl': 0.38.6
+      '@ast-grep/napi-linux-x64-gnu': 0.38.6
+      '@ast-grep/napi-linux-x64-musl': 0.38.6
+      '@ast-grep/napi-win32-arm64-msvc': 0.38.6
+      '@ast-grep/napi-win32-ia32-msvc': 0.38.6
+      '@ast-grep/napi-win32-x64-msvc': 0.38.6
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -12193,14 +12243,14 @@ snapshots:
       human-id: 4.1.1
       prettier: 2.8.8
 
-  '@clack/core@0.4.2':
+  '@clack/core@0.5.0':
     dependencies:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
-  '@clack/prompts@0.10.1':
+  '@clack/prompts@0.11.0':
     dependencies:
-      '@clack/core': 0.4.2
+      '@clack/core': 0.5.0
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
@@ -13102,7 +13152,7 @@ snapshots:
     dependencies:
       '@swc/helpers': 0.5.17
 
-  '@intlify/bundle-utils@10.0.1(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))':
+  '@intlify/bundle-utils@10.0.1(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))':
     dependencies:
       '@intlify/message-compiler': 11.1.7
       '@intlify/shared': 11.1.7
@@ -13114,26 +13164,33 @@ snapshots:
       source-map-js: 1.2.1
       yaml-eslint-parser: 1.3.0
     optionalDependencies:
-      vue-i18n: 11.1.7(vue@3.5.17(typescript@5.8.3))
+      vue-i18n: 11.1.9(vue@3.5.17(typescript@5.8.3))
 
-  '@intlify/core-base@11.1.7':
+  '@intlify/core-base@11.1.9':
     dependencies:
-      '@intlify/message-compiler': 11.1.7
-      '@intlify/shared': 11.1.7
+      '@intlify/message-compiler': 11.1.9
+      '@intlify/shared': 11.1.9
 
   '@intlify/message-compiler@11.1.7':
     dependencies:
       '@intlify/shared': 11.1.7
       source-map-js: 1.2.1
 
+  '@intlify/message-compiler@11.1.9':
+    dependencies:
+      '@intlify/shared': 11.1.9
+      source-map-js: 1.2.1
+
   '@intlify/shared@11.1.7': {}
 
-  '@intlify/unplugin-vue-i18n@6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.1(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
+  '@intlify/shared@11.1.9': {}
+
+  '@intlify/unplugin-vue-i18n@6.0.8(@vue/compiler-dom@3.5.17)(eslint@9.30.1(jiti@2.4.2))(rollup@4.44.1)(typescript@5.8.3)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.30.1(jiti@2.4.2))
-      '@intlify/bundle-utils': 10.0.1(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))
+      '@intlify/bundle-utils': 10.0.1(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))
       '@intlify/shared': 11.1.7
-      '@intlify/vue-i18n-extensions': 8.0.0(@intlify/shared@11.1.7)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
+      '@intlify/vue-i18n-extensions': 8.0.0(@intlify/shared@11.1.7)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
       '@rollup/pluginutils': 5.2.0(rollup@4.44.1)
       '@typescript-eslint/scope-manager': 8.35.1
       '@typescript-eslint/typescript-estree': 8.35.1(typescript@5.8.3)
@@ -13147,7 +13204,7 @@ snapshots:
       unplugin: 1.16.1
       vue: 3.5.17(typescript@5.8.3)
     optionalDependencies:
-      vue-i18n: 11.1.7(vue@3.5.17(typescript@5.8.3))
+      vue-i18n: 11.1.9(vue@3.5.17(typescript@5.8.3))
     transitivePeerDependencies:
       - '@vue/compiler-dom'
       - eslint
@@ -13155,14 +13212,14 @@ snapshots:
       - supports-color
       - typescript
 
-  '@intlify/vue-i18n-extensions@8.0.0(@intlify/shared@11.1.7)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
+  '@intlify/vue-i18n-extensions@8.0.0(@intlify/shared@11.1.7)(@vue/compiler-dom@3.5.17)(vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@babel/parser': 7.28.0
     optionalDependencies:
       '@intlify/shared': 11.1.7
       '@vue/compiler-dom': 3.5.17
       vue: 3.5.17(typescript@5.8.3)
-      vue-i18n: 11.1.7(vue@3.5.17(typescript@5.8.3))
+      vue-i18n: 11.1.9(vue@3.5.17(typescript@5.8.3))
 
   '@ioredis/commands@1.2.0': {}
 
@@ -13866,7 +13923,7 @@ snapshots:
 
   '@speed-highlight/core@1.2.7': {}
 
-  '@stylistic/stylelint-plugin@3.1.3(stylelint@16.21.0(typescript@5.8.3))':
+  '@stylistic/stylelint-plugin@3.1.3(stylelint@16.21.1(typescript@5.8.3))':
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
@@ -13876,7 +13933,7 @@ snapshots:
       postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
   '@supabase/auth-js@2.70.0':
     dependencies:
@@ -14316,11 +14373,11 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.9.2':
     optional: true
 
-  '@vee-validate/zod@4.15.1(vue@3.5.17(typescript@5.8.3))(zod@3.25.67)':
+  '@vee-validate/zod@4.15.1(vue@3.5.17(typescript@5.8.3))(zod@3.25.71)':
     dependencies:
       type-fest: 4.41.0
       vee-validate: 4.15.1(vue@3.5.17(typescript@5.8.3))
-      zod: 3.25.67
+      zod: 3.25.71
     transitivePeerDependencies:
       - vue
 
@@ -15269,7 +15326,7 @@ snapshots:
 
   circular-dependency-scanner@2.3.0:
     dependencies:
-      '@ast-grep/napi': 0.37.0
+      '@ast-grep/napi': 0.38.6
       '@vue/compiler-sfc': 3.5.17
       commander: 12.1.0
       get-tsconfig: 4.10.1
@@ -16380,10 +16437,9 @@ snapshots:
     transitivePeerDependencies:
       - '@eslint/json'
 
-  eslint-plugin-n@17.20.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3):
+  eslint-plugin-n@17.21.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.30.1(jiti@2.4.2))
-      '@typescript-eslint/utils': 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       enhanced-resolve: 5.18.2
       eslint: 9.30.1(jiti@2.4.2)
       eslint-plugin-es-x: 7.8.0(eslint@9.30.1(jiti@2.4.2))
@@ -16394,7 +16450,6 @@ snapshots:
       semver: 7.7.2
       ts-declaration-location: 1.0.7(typescript@5.8.3)
     transitivePeerDependencies:
-      - supports-color
       - typescript
 
   eslint-plugin-no-only-tests@3.3.0: {}
@@ -16473,7 +16528,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-vue@10.2.0(eslint@9.30.1(jiti@2.4.2))(vue-eslint-parser@10.2.0(eslint@9.30.1(jiti@2.4.2))):
+  eslint-plugin-vue@10.3.0(@typescript-eslint/parser@8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.4.2))(vue-eslint-parser@10.2.0(eslint@9.30.1(jiti@2.4.2))):
     dependencies:
       '@eslint-community/eslint-utils': 4.7.0(eslint@9.30.1(jiti@2.4.2))
       eslint: 9.30.1(jiti@2.4.2)
@@ -16483,6 +16538,8 @@ snapshots:
       semver: 7.7.2
       vue-eslint-parser: 10.2.0(eslint@9.30.1(jiti@2.4.2))
       xml-name-validator: 4.0.0
+    optionalDependencies:
+      '@typescript-eslint/parser': 8.35.1(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
 
   eslint-scope@8.4.0:
     dependencies:
@@ -17683,20 +17740,48 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  lefthook-darwin-arm64@1.11.14:
+  lefthook-darwin-arm64@1.11.16:
     optional: true
 
-  lefthook-darwin-x64@1.11.14:
+  lefthook-darwin-x64@1.11.16:
     optional: true
 
-  lefthook-windows-x64@1.11.14:
+  lefthook-freebsd-arm64@1.11.16:
     optional: true
 
-  lefthook@1.11.14:
+  lefthook-freebsd-x64@1.11.16:
+    optional: true
+
+  lefthook-linux-arm64@1.11.16:
+    optional: true
+
+  lefthook-linux-x64@1.11.16:
+    optional: true
+
+  lefthook-openbsd-arm64@1.11.16:
+    optional: true
+
+  lefthook-openbsd-x64@1.11.16:
+    optional: true
+
+  lefthook-windows-arm64@1.11.16:
+    optional: true
+
+  lefthook-windows-x64@1.11.16:
+    optional: true
+
+  lefthook@1.11.16:
     optionalDependencies:
-      lefthook-darwin-arm64: 1.11.14
-      lefthook-darwin-x64: 1.11.14
-      lefthook-windows-x64: 1.11.14
+      lefthook-darwin-arm64: 1.11.16
+      lefthook-darwin-x64: 1.11.16
+      lefthook-freebsd-arm64: 1.11.16
+      lefthook-freebsd-x64: 1.11.16
+      lefthook-linux-arm64: 1.11.16
+      lefthook-linux-x64: 1.11.16
+      lefthook-openbsd-arm64: 1.11.16
+      lefthook-openbsd-x64: 1.11.16
+      lefthook-windows-arm64: 1.11.16
+      lefthook-windows-x64: 1.11.16
 
   less@4.3.0:
     dependencies:
@@ -17881,7 +17966,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-vue-next@0.507.0(vue@3.5.17(typescript@5.8.3)):
+  lucide-vue-next@0.525.0(vue@3.5.17(typescript@5.8.3)):
     dependencies:
       vue: 3.5.17(typescript@5.8.3)
 
@@ -20059,65 +20144,65 @@ snapshots:
       postcss: 8.5.6
       postcss-selector-parser: 7.1.0
 
-  stylelint-config-html@1.1.0(postcss-html@1.8.0)(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-html@1.1.0(postcss-html@1.8.0)(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss-html: 1.8.0
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-config-recess-order@6.1.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recess-order@6.1.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-order: 6.0.4(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-order: 6.0.4(stylelint@16.21.1(typescript@5.8.3))
 
-  stylelint-config-recommended-scss@14.1.0(postcss@8.5.6)(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recommended-scss@14.1.0(postcss@8.5.6)(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss-scss: 4.0.9(postcss@8.5.6)
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-config-recommended: 14.0.1(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-scss: 6.12.1(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-config-recommended: 14.0.1(stylelint@16.21.1(typescript@5.8.3))
+      stylelint-scss: 6.12.1(stylelint@16.21.1(typescript@5.8.3))
     optionalDependencies:
       postcss: 8.5.6
 
-  stylelint-config-recommended-vue@1.6.1(postcss-html@1.8.0)(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recommended-vue@1.6.1(postcss-html@1.8.0)(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss-html: 1.8.0
       semver: 7.7.2
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-config-html: 1.1.0(postcss-html@1.8.0)(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-config-recommended: 16.0.0(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-config-html: 1.1.0(postcss-html@1.8.0)(stylelint@16.21.1(typescript@5.8.3))
+      stylelint-config-recommended: 16.0.0(stylelint@16.21.1(typescript@5.8.3))
 
-  stylelint-config-recommended@14.0.1(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recommended@14.0.1(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-config-recommended@16.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-recommended@16.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-config-standard@38.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-config-standard@38.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
-      stylelint: 16.21.0(typescript@5.8.3)
-      stylelint-config-recommended: 16.0.0(stylelint@16.21.0(typescript@5.8.3))
+      stylelint: 16.21.1(typescript@5.8.3)
+      stylelint-config-recommended: 16.0.0(stylelint@16.21.1(typescript@5.8.3))
 
-  stylelint-order@6.0.4(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-order@6.0.4(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss: 8.5.6
       postcss-sorting: 8.0.2(postcss@8.5.6)
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-order@7.0.0(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-order@7.0.0(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       postcss: 8.5.6
       postcss-sorting: 9.1.0(postcss@8.5.6)
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-prettier@5.0.3(prettier@3.6.2)(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-prettier@5.0.3(prettier@3.6.2)(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       prettier: 3.6.2
       prettier-linter-helpers: 1.0.0
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint-scss@6.12.1(stylelint@16.21.0(typescript@5.8.3)):
+  stylelint-scss@6.12.1(stylelint@16.21.1(typescript@5.8.3)):
     dependencies:
       css-tree: 3.1.0
       is-plain-object: 5.0.0
@@ -20127,9 +20212,9 @@ snapshots:
       postcss-resolve-nested-selector: 0.1.6
       postcss-selector-parser: 7.1.0
       postcss-value-parser: 4.2.0
-      stylelint: 16.21.0(typescript@5.8.3)
+      stylelint: 16.21.1(typescript@5.8.3)
 
-  stylelint@16.21.0(typescript@5.8.3):
+  stylelint@16.21.1(typescript@5.8.3):
     dependencies:
       '@csstools/css-parser-algorithms': 3.0.5(@csstools/css-tokenizer@3.0.4)
       '@csstools/css-tokenizer': 3.0.4
@@ -21159,10 +21244,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vue-i18n@11.1.7(vue@3.5.17(typescript@5.8.3)):
+  vue-i18n@11.1.9(vue@3.5.17(typescript@5.8.3)):
     dependencies:
-      '@intlify/core-base': 11.1.7
-      '@intlify/shared': 11.1.7
+      '@intlify/core-base': 11.1.9
+      '@intlify/shared': 11.1.9
       '@vue/devtools-api': 6.6.4
       vue: 3.5.17(typescript@5.8.3)
 
@@ -21213,15 +21298,15 @@ snapshots:
       vooks: 0.2.12(vue@3.5.17(typescript@5.8.3))
       vue: 3.5.17(typescript@5.8.3)
 
-  vxe-pc-ui@4.6.42(vue@3.5.17(typescript@5.8.3)):
+  vxe-pc-ui@4.6.46(vue@3.5.17(typescript@5.8.3)):
     dependencies:
       '@vxe-ui/core': 4.1.5(vue@3.5.17(typescript@5.8.3))
     transitivePeerDependencies:
       - vue
 
-  vxe-table@4.13.51(vue@3.5.17(typescript@5.8.3)):
+  vxe-table@4.13.52(vue@3.5.17(typescript@5.8.3)):
     dependencies:
-      vxe-pc-ui: 4.6.42(vue@3.5.17(typescript@5.8.3))
+      vxe-pc-ui: 4.6.46(vue@3.5.17(typescript@5.8.3))
     transitivePeerDependencies:
       - vue
 
@@ -21593,11 +21678,13 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod-defaults@0.1.3(zod@3.25.67):
+  zod-defaults@0.1.3(zod@3.25.71):
     dependencies:
-      zod: 3.25.67
+      zod: 3.25.71
 
   zod@3.25.67: {}
+
+  zod@3.25.71: {}
 
   zrender@5.6.1:
     dependencies:

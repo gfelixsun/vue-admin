@@ -13,11 +13,11 @@ packages:
   - docs
   - playground
 catalog:
-  '@ast-grep/napi': ^0.37.0
+  '@ast-grep/napi': ^0.38.6
   '@changesets/changelog-github': ^0.5.1
   '@changesets/cli': ^2.29.2
   '@changesets/git': ^3.0.4
-  '@clack/prompts': ^0.10.1
+  '@clack/prompts': ^0.11.0
   '@commitlint/cli': ^19.8.0
   '@commitlint/config-conventional': ^19.8.0
   '@ctrl/tinycolor': ^4.1.0
@@ -26,7 +26,7 @@ catalog:
   '@iconify/json': ^2.2.334
   '@iconify/tailwind': ^1.2.0
   '@iconify/vue': ^5.0.0
-  '@intlify/core-base': ^11.1.3
+  '@intlify/core-base': ^11.1.9
   '@intlify/unplugin-vue-i18n': ^6.0.8
   '@jspm/generator': ^2.5.1
   '@manypkg/get-packages': ^3.0.0
@@ -96,7 +96,7 @@ catalog:
   eslint-plugin-import-x: ^4.11.0
   eslint-plugin-jsdoc: ^50.6.11
   eslint-plugin-jsonc: ^2.20.0
-  eslint-plugin-n: ^17.17.0
+  eslint-plugin-n: ^17.21.0
   eslint-plugin-no-only-tests: ^3.3.0
   eslint-plugin-perfectionist: ^4.12.3
   eslint-plugin-prettier: ^5.2.6
@@ -104,7 +104,7 @@ catalog:
   eslint-plugin-unicorn: ^59.0.0
   eslint-plugin-unused-imports: ^4.1.4
   eslint-plugin-vitest: ^0.5.4
-  eslint-plugin-vue: ^10.1.0
+  eslint-plugin-vue: ^10.3.0
   execa: ^9.5.2
   find-up: ^7.0.0
   get-port: ^7.1.0
@@ -116,12 +116,12 @@ catalog:
   json-bigint: ^1.0.0
   jsonc-eslint-parser: ^2.4.0
   jsonwebtoken: ^9.0.2
-  lefthook: ^1.11.12
+  lefthook: ^1.11.16
   lodash.clonedeep: ^4.5.0
   lodash.get: ^4.4.2
   lodash.isequal: ^4.5.0
   lodash.set: ^4.3.2
-  lucide-vue-next: ^0.507.0
+  lucide-vue-next: ^0.525.0
   medium-zoom: ^1.1.0
   naive-ui: ^2.41.0
   nitropack: ^2.11.11
@@ -150,7 +150,7 @@ catalog:
   sass: ^1.87.0
   secure-ls: ^2.0.0
   sortablejs: ^1.15.6
-  stylelint: ^16.19.1
+  stylelint: ^16.21.1
   stylelint-config-recess-order: ^6.0.0
   stylelint-config-recommended: ^16.0.0
   stylelint-config-recommended-scss: ^14.1.0
@@ -181,13 +181,13 @@ catalog:
   vitest: ^3.1.2
   vue: ^3.5.13
   vue-eslint-parser: ^10.1.3
-  vue-i18n: ^11.1.3
+  vue-i18n: ^11.1.9
   vue-json-viewer: ^3.0.4
   vue-router: ^4.5.1
   vue-tippy: ^6.7.0
   vue-tsc: 2.2.10
-  vxe-pc-ui: ^4.5.35
-  vxe-table: ^4.13.16
+  vxe-pc-ui: ^4.6.46
+  vxe-table: ^4.13.52
   watermark-js-plus: ^1.6.0
-  zod: ^3.24.3
+  zod: ^3.25.71
   zod-defaults: ^0.1.3
