@@ -1,4 +1,5 @@
 import { baseRequestClient, requestClient } from '#/api/request';
+import { supabase } from '#/utils/supabase';
 
 export namespace AuthApi {
   /** 登录接口参数 */
@@ -21,8 +22,14 @@ export namespace AuthApi {
 /**
  * 登录
  */
-export async function loginApi(data: AuthApi.LoginParams) {
-  return requestClient.post<AuthApi.LoginResult>('/auth/login', data);
+export async function loginApi(params: AuthApi.LoginParams) {
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email: params.username || '',
+    password: params.password || '',
+  });
+
+  return { data, error };
+  // return requestClient.post<AuthApi.LoginResult>('/auth/login', data);
 }
 
 /**

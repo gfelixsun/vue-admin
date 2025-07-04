@@ -1,4 +1,4 @@
-import { supabase } from '../../../../packages/effects/common-ui/src/utils/supabase';
+import { supabase } from '#/utils/supabase';
 
 export const useUserStore = () => {
   // 登录
