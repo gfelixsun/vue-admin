@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@vben/tsconfig/web.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#/*": ["src/*"]
+    }
+  },
+  "include": ["src", "../../../apps/web-antd/src/conposables"],
+  "exclude": ["node_modules"]
+}
